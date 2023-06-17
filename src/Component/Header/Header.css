@@ -1,0 +1,20 @@
+.mange-btn,.advertise-btn{
+ padding: 3px 10px ;
+ border: 1px solid rgb(163, 162, 162);
+ margin-left: 15px;
+ border-radius: 5px;
+ 
+}
+.login-btn,.signup-btn{
+  margin-left: 10px;
+}
+.signup-btn{
+  background: #d42c2c;
+   color: white;
+   padding: 4px 10px;
+   border-radius: 15px;
+}
+.active{
+  border-bottom: 1px solid #d42c2c;
+  color: red;
+}
