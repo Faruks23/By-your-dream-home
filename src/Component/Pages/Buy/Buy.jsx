@@ -7,6 +7,7 @@ import AffordableHomes from './AffordableHomes/AffordableHomes';
 import LuxuryHomes from './LuxuryHomes/LuxuryHomes';
 import Trend from './Trend/Trend';
 import CardMedia from './CardMedia/CardMedia';
+import HomeLoan from './HomeLoan/HomeLoan';
 
 const Buy = () => {
   return (
@@ -39,7 +40,9 @@ const Buy = () => {
       <Trend></Trend>
 
       <CardMedia></CardMedia>
+      {/* Home loan section */}
 
+      <HomeLoan></HomeLoan>
     </div>
   );
 };

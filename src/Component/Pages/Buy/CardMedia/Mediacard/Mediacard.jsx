@@ -15,7 +15,7 @@ const Mediacard = ({image, title,overlyTitle}) => {
         <h1 className=" uppercase">{title}</h1>
       </div>
 
-      <p className='mt-10'>{overlyTitle}</p>
+      <p className='mt-10  capitalize'>{overlyTitle}</p>
     </div>
   );
 };
