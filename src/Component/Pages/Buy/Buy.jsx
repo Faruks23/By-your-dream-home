@@ -2,6 +2,11 @@ import React from 'react';
 import Banner from '../../SharedComponent/Banner/Banner';
 import LowestHome from './LowestHome/LowestHome';
 import NewestListings from './Newest/NewestListings';
+import UppCommingHous from './UppCommingHous/UppCommingHous';
+import AffordableHomes from './AffordableHomes/AffordableHomes';
+import LuxuryHomes from './LuxuryHomes/LuxuryHomes';
+import Trend from './Trend/Trend';
+import CardMedia from './CardMedia/CardMedia';
 
 const Buy = () => {
   return (
@@ -22,6 +27,18 @@ const Buy = () => {
       <LowestHome></LowestHome>
       {/* newest home */}
       <NewestListings></NewestListings>
+      {/* uppcomming hous */}
+      <UppCommingHous></UppCommingHous>
+      
+      {/* Affordable HOme */}
+      <AffordableHomes></AffordableHomes>
+
+      {/* Luxury Home */}
+      <LuxuryHomes></LuxuryHomes>
+      {/* Trend */}
+      <Trend></Trend>
+
+      <CardMedia></CardMedia>
 
     </div>
   );

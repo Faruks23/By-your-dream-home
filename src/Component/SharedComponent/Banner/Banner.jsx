@@ -14,7 +14,7 @@ const Banner = ({ image, title, subtitle }) => {
             <h1 className="mb-6 text-6xl font-bold">{title}</h1>
             <p className="mb-6 text-lg font-bold">{subtitle}</p>
             <div className="link mt-10">
-              <ul className="flex  justify-center  font-semibold  font-serif gap-5 uppercase">
+              <ul className="flex  justify-center  font-semibold  font-serif gap-5 uppercase no-underline">
                 <li>
                   <NavLink to={"/"}>By</NavLink>
                 </li>

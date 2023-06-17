@@ -1,8 +1,8 @@
 import React from 'react';
-import Card from '../LowestHome/Card/Card';
 import CardHeader from '../LowestHome/Card-Header/CardHeader';
+import Card from '../LowestHome/Card/Card';
 
-const NewestListings = () => {
+const UppCommingHous = () => {
   return (
     <div className="container mx-auto mt-[60px]">
       <CardHeader
@@ -14,32 +14,28 @@ const NewestListings = () => {
         {/* card */}
         <Card
           image={
-            "https://ap.rdcpix.com/3049710d1b137709e54d225b6f762af4l-m324196902od-w480_h360.webp"
+            "https://ap.rdcpix.com/30f891c5c2328f00a234e77e3f6d703fl-m1929360329od-w480_h360.webp"
           }
         ></Card>
         <Card
           image={
-            "https://ap.rdcpix.com/3049710d1b137709e54d225b6f762af4l-m324196902od-w480_h360.webp"
+            "https://ap.rdcpix.com/30f891c5c2328f00a234e77e3f6d703fl-m1929360329od-w480_h360.webp"
           }
         ></Card>
         <Card
           image={
-            "https://ap.rdcpix.com/3049710d1b137709e54d225b6f762af4l-m324196902od-w480_h360.webp"
+            "https://ap.rdcpix.com/30f891c5c2328f00a234e77e3f6d703fl-m1929360329od-w480_h360.webp"
           }
         ></Card>
         <Card
           image={
-            "https://ap.rdcpix.com/3049710d1b137709e54d225b6f762af4l-m324196902od-w480_h360.webp"
+            "https://ap.rdcpix.com/30f891c5c2328f00a234e77e3f6d703fl-m1929360329od-w480_h360.webp"
           }
         ></Card>
-        <Card
-          image={
-            "https://ap.rdcpix.com/3049710d1b137709e54d225b6f762af4l-m324196902od-w480_h360.webp"
-          }
-        ></Card>
+       
       </div>
     </div>
   );
 };
 
-export default NewestListings;
+export default UppCommingHous;
