@@ -5,7 +5,7 @@ const NavItem = () => {
   return (
     <ul className="flex  gap-3 uppercase ">
       <li>
-        <NavLink to={"/"}>By</NavLink>
+        <NavLink to={"/"}>Buy</NavLink>
       </li>
       <li>
         <NavLink to={"/sell"}>sell</NavLink>

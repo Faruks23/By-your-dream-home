@@ -16,7 +16,7 @@ const Banner = ({ image, title, subtitle }) => {
             <div className="link mt-10">
               <ul className="flex  justify-center  font-semibold  font-serif gap-5 uppercase no-underline">
                 <li>
-                  <NavLink to={"/"}>By</NavLink>
+                  <NavLink to={"/"}>Buy</NavLink>
                 </li>
                 <li>
                   <NavLink to={"/sell"}>sell</NavLink>

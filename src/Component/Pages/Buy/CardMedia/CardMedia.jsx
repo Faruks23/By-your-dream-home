@@ -3,7 +3,7 @@ import Mediacard from './Mediacard/Mediacard';
 
 const CardMedia = () => {
   return (
-    <div className=" container mx-auto">
+    <div className=" container mx-auto my-10">
       <div className="grid grid-cols-4 gap-10">
         <Mediacard
           title={"Unique home"}
